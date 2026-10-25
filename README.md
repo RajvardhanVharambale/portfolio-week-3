@@ -2,28 +2,30 @@
 
 A responsive personal portfolio website built using HTML, CSS, and JavaScript as part of my **Week 3 Web Development Internship Task — JavaScript: Making Websites Interactive**.
 
-The project demonstrates how JavaScript can make a website interactive through DOM manipulation, event handling, form validation, and dynamic content updates.
+The project demonstrates how JavaScript makes websites interactive through DOM manipulation, event handling, form validation, and dynamic content updates.
 
 ## 🌐 Live Demo
 
-**Live Website:** [Add your GitHub Pages URL here after deployment]
+**Live Website:** [View Interactive Portfolio](https://rajvardhanvharambale.github.io/portfolio-week-3/)
+
+**GitHub Repository:** [portfolio-week-3](https://github.com/RajvardhanVharambale/portfolio-week-3)
 
 ## 📌 Project Overview
 
-This portfolio website presents my introduction, technical skills, projects, experience, and contact information in a clean and responsive layout. It also includes interactive features that improve usability and demonstrate practical JavaScript concepts.
+This portfolio website presents my introduction, technical skills, projects, experience, and contact information in a clean, modern, and responsive layout. It includes interactive features that improve usability and demonstrate practical JavaScript concepts across desktop and mobile screens.
 
 ## ✨ Features
 
-- **Responsive Design:** Adapts to desktop, tablet, and mobile screens.
+- **Responsive Design:** Adapts to desktop, tablet, and mobile screen sizes.
 - **Dark/Light Theme:** Switch between themes for a comfortable viewing experience.
 - **Interactive Project Slider:** Browse project cards using slider controls.
 - **To-Do List:** Add and remove tasks dynamically.
 - **Contact Form Validation:** Validate user inputs and display helpful error messages.
-- **Interactive Feedback:** Show success or error messages based on form validation and submission status.
+- **Interactive Feedback:** Display messages based on form validation and submission status.
 - **DOM Manipulation:** Update website elements dynamically using JavaScript.
 - **Event Listeners:** Respond to user actions such as clicks, form submissions, and input changes.
 - **Reusable Functions:** Organize JavaScript code into functions for easier maintenance.
-- **Local Storage:** Preserve supported preferences or tasks between browser sessions, where implemented.
+- **Local Storage:** Save supported preferences or tasks between browser sessions, where implemented.
 
 ## 🛠️ Technologies Used
 
@@ -31,12 +33,15 @@ This portfolio website presents my introduction, technical skills, projects, exp
 - CSS3
 - JavaScript
 - Git and GitHub
-- GitHub Pages for deployment
+- GitHub Pages
 
 ## 📂 Project Structure
 
 ```text
 portfolio-week-3/
+├── .github/
+│   └── workflows/
+│       └── static.yml
 ├── images/
 │   ├── advancedtexteditor...
 │   ├── apexa.png
@@ -47,14 +52,16 @@ portfolio-week-3/
 │   ├── home-dark.png
 │   ├── home-light.png
 │   ├── project-slider.png
-│   └── todo-list.png
+│   ├── todo-list.png
+│   └── mobile-view...
+├── .nojekyll
 ├── index.html
-├── style.css
 ├── script.js
+├── style.css
 └── README.md
 ```
 
-*Note: Some image filenames are shortened in this example. The actual filenames may differ.*
+*Note: Some image filenames are shortened for readability. The actual filenames may differ.*
 
 ## 🖥️ Projects Featured
 
@@ -72,21 +79,26 @@ A Java-based text editor project.
 
 ## 🚀 How to Run Locally
 
-1. Download or clone this repository.
+1. Clone or download this repository.
 2. Open the project folder in Visual Studio Code.
-3. Open `index.html` in your browser, or run it using the **Live Server** extension.
+3. Open `index.html` in your browser, or use the **Live Server** extension.
 4. Explore the theme toggle, project slider, to-do list, and contact form.
 5. Open the browser's developer tools to inspect JavaScript errors if needed.
 
 ## 📸 Screenshots
 
-The `screenshots/` folder contains screenshots demonstrating the website's appearance and interactive features, including:
+The `screenshots/` folder contains screenshots demonstrating the website's design, responsive layout, and interactive functionality.
 
-- Home page in light theme
-- Home page in dark theme
-- Project slider
-- To-do list
-- Contact form validation
+| Screenshot | Description |
+|---|---|
+| `home-light.png` | Home page in light theme |
+| `home-dark.png` | Home page in dark theme |
+| `project-slider.png` | Interactive project slider |
+| `todo-list.png` | To-do list functionality |
+| `form-validation...` | Contact form validation |
+| `mobile-view...` | Website layout on mobile screens |
+
+The screenshots provide a visual overview of the website across different themes, features, and screen sizes.
 
 ## 🎯 Learning Outcomes
 
@@ -97,18 +109,18 @@ Through this project, I practised:
 - Implementing client-side form validation
 - Creating reusable JavaScript functions
 - Updating page content dynamically
-- Building an interactive and responsive website
-- Organizing project files and preparing a project for GitHub deployment
+- Building responsive layouts for different screen sizes
+- Organizing project files and deploying a website using GitHub Pages
 
 ## 👨‍💻 Author
 
 **Rajvardhan Pradeep Vharambale**
 
-- GitHub: [RajvardhanVharambale](https://github.com/RajvardhanVharambale)
-- Portfolio: [Personal Portfolio](https://rajvardhanvharambale.github.io/rajvardhan-portfolio/)
+- **GitHub:** [RajvardhanVharambale](https://github.com/RajvardhanVharambale)
+- **Personal Portfolio:** [View Portfolio](https://rajvardhanvharambale.github.io/rajvardhan-portfolio/)
 
 ## 📄 Internship Task
 
 **Week 3 — JavaScript: Making Websites Interactive**
 
-This project was developed to practise JavaScript fundamentals and add interactive functionality to a personal portfolio website.
+This project was developed to practise JavaScript fundamentals and enhance a personal portfolio website with interactive functionality and responsive design.
