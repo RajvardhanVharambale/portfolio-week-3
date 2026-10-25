@@ -1,0 +1,749 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta
+    name="description"
+    content="Rajvardhan Vharambale — Computer Science student and aspiring software developer."
+  >
+  <meta name="theme-color" content="#101827">
+
+  <title>Rajvardhan Vharambale | Developer Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+
+  <!-- Main stylesheet and JavaScript -->
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ==================== HEADER ==================== -->
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+
+      <a class="brand" href="#home" aria-label="Rajvardhan home">
+        RV<span>.</span>
+      </a>
+
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="nav-links"
+        aria-label="Open navigation menu"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-links" id="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+
+        <button
+          class="theme-toggle"
+          id="theme-toggle"
+          type="button"
+          aria-label="Switch to dark mode"
+          title="Toggle color theme"
+        >
+          <span id="theme-icon" aria-hidden="true">☾</span>
+          <span class="theme-label">Dark mode</span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- ==================== HERO ==================== -->
+    <section class="hero section container" id="home">
+      <div class="hero-copy">
+
+        <p class="eyebrow">
+          <span class="status-dot"></span>
+          COMPUTER SCIENCE STUDENT · DEVELOPER
+        </p>
+
+        <h1>
+          Hi, I'm <span class="accent-text">Rajvardhan</span>.<br>
+          I build things for the web.
+        </h1>
+
+        <p class="hero-description">
+          I’m a B.Tech Computer Science student who enjoys turning ideas
+          into useful, thoughtful digital experiences — from responsive
+          interfaces to developer tools.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">
+            Explore my work <span aria-hidden="true">↗</span>
+          </a>
+
+          <a class="button button-secondary" href="#contact">
+            Get in touch
+          </a>
+        </div>
+
+        <div class="hero-meta">
+          <span>
+            <span class="meta-symbol">⌁</span>
+            Kolhapur, Maharashtra
+          </span>
+
+          <span>
+            <span class="meta-symbol">✳</span>
+            Always learning
+          </span>
+        </div>
+      </div>
+
+      <!-- Decorative developer illustration -->
+      <div class="hero-art" aria-label="Decorative developer illustration">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+
+        <div class="hero-card">
+          <div class="window-bar">
+            <span></span>
+            <span></span>
+            <span></span>
+            <p>developer.js</p>
+          </div>
+
+          <div class="code-art" aria-hidden="true">
+            <p>
+              <span class="code-purple">const</span> developer = {
+            </p>
+
+            <p class="indent">
+              <span class="code-blue">name</span>:
+              <span class="code-green">'Rajvardhan'</span>,
+            </p>
+
+            <p class="indent">
+              <span class="code-blue">focus</span>:
+              <span class="code-green">'Web development'</span>,
+            </p>
+
+            <p class="indent">
+              <span class="code-blue">curious</span>:
+              <span class="code-orange">true</span>,
+            </p>
+
+            <p class="indent">
+              <span class="code-blue">build</span>: ()
+              <span class="code-purple">=&gt;</span>
+              <span class="code-green">'Ideas into reality'</span>
+            </p>
+
+            <p>};</p>
+            <p class="code-comment">// learning by building.</p>
+          </div>
+
+          <div class="code-footer">
+            <span class="status-dot"></span>
+            Available for learning &amp; collaboration
+          </div>
+        </div>
+
+        <div class="floating-tag tag-top">
+          {" "}HTML · CSS · JS
+        </div>
+
+        <div class="floating-tag tag-bottom">
+          Build. Learn. Repeat. ↗
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== ABOUT ==================== -->
+    <section class="section section-muted" id="about">
+      <div class="container split-section">
+
+        <div>
+          <p class="eyebrow">01 / ABOUT</p>
+          <h2>
+            Curiosity turns into
+            <span class="accent-text">code.</span>
+          </h2>
+        </div>
+
+        <div class="about-copy">
+          <p>
+            I’m pursuing a B.Tech in Computer Science at D. Y. Patil
+            College of Engineering &amp; Technology, Kolhapur. I like
+            learning how software works, building projects that solve
+            practical problems, and improving through hands-on experience.
+          </p>
+
+          <p>
+            My current interests include frontend development, APIs,
+            secure code execution, and building tools that make everyday
+            work easier.
+          </p>
+
+          <button
+            class="text-button"
+            id="about-toggle"
+            type="button"
+            aria-expanded="false"
+            aria-controls="about-extra"
+          >
+            A little more about me
+            <span aria-hidden="true">＋</span>
+          </button>
+
+          <div class="reveal-panel" id="about-extra" hidden>
+            <p>
+              Outside coding, I enjoy strategic games, movies, volunteering,
+              and exploring new technologies. I value teamwork, consistent
+              learning, and building things I can explain and improve.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================== SKILLS ==================== -->
+    <section class="section container" id="skills">
+      <div class="section-heading">
+
+        <div>
+          <p class="eyebrow">02 / TOOLKIT</p>
+          <h2>Skills I'm growing.</h2>
+        </div>
+
+        <p class="section-intro">
+          A practical mix of programming, web technologies,
+          and collaboration skills.
+        </p>
+      </div>
+
+      <div class="skills-grid">
+        <article class="skill-card">
+          <span class="skill-icon">⌘</span>
+          <h3>Languages</h3>
+          <p>Python · Java · C++ · JavaScript</p>
+        </article>
+
+        <article class="skill-card">
+          <span class="skill-icon">▧</span>
+          <h3>Web development</h3>
+          <p>HTML · CSS · React · Responsive UI</p>
+        </article>
+
+        <article class="skill-card">
+          <span class="skill-icon">⌁</span>
+          <h3>Tools &amp; platforms</h3>
+          <p>Git · GitHub · VS Code · Docker</p>
+        </article>
+
+        <article class="skill-card">
+          <span class="skill-icon">✳</span>
+          <h3>Working style</h3>
+          <p>Communication · Teamwork · Leadership</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ==================== PROJECTS ==================== -->
+    <section class="section section-muted" id="projects">
+      <div class="container">
+
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">03 / SELECTED WORK</p>
+            <h2>Projects with a purpose.</h2>
+          </div>
+
+          <div class="slider-controls">
+            <button
+              class="icon-button"
+              id="project-prev"
+              type="button"
+              aria-label="Previous project"
+            >
+              ←
+            </button>
+
+            <button
+              class="icon-button"
+              id="project-next"
+              type="button"
+              aria-label="Next project"
+            >
+              →
+            </button>
+          </div>
+        </div>
+
+        <div class="project-slider" id="project-slider" aria-live="polite">
+
+          <!-- Project 1: CodeVault -->
+          <article class="project-card is-active" data-project="0">
+            <div class="project-visual visual-codevault">
+              <img
+                src="images/codevault.png"
+                alt="CodeVault code execution platform preview"
+                loading="lazy"
+                decoding="async"
+              >
+            </div>
+
+            <div class="project-details">
+              <p class="project-number">PROJECT / 01</p>
+              <h3>CodeVault</h3>
+
+              <p>
+                A code execution platform for writing, compiling, and
+                running programs in isolated Docker containers.
+              </p>
+
+              <div class="tag-list">
+                <span>React</span>
+                <span>FastAPI</span>
+                <span>PostgreSQL</span>
+                <span>Docker</span>
+              </div>
+
+              <p class="project-focus">
+                Focus · Secure code execution and containerization
+              </p>
+            </div>
+          </article>
+
+          <!-- Project 2: APEXA -->
+          <article class="project-card" data-project="1" hidden>
+            <div class="project-visual visual-apexa">
+              <img
+                src="images/apexa.png"
+                alt="APEXA API security and response analyzer preview"
+                loading="lazy"
+                decoding="async"
+              >
+            </div>
+
+            <div class="project-details">
+              <p class="project-number">PROJECT / 02</p>
+              <h3>APEXA</h3>
+
+              <p>
+                An API security and response analyzer designed to help
+                inspect API responses and identify potential issues.
+              </p>
+
+              <div class="tag-list">
+                <span>Python</span>
+                <span>APIs</span>
+                <span>Security</span>
+                <span>Analysis</span>
+              </div>
+
+              <p class="project-focus">
+                Focus · API inspection and readable reports
+              </p>
+            </div>
+          </article>
+
+          <!-- Project 3: HandyConnect -->
+          <article class="project-card" data-project="2" hidden>
+            <div class="project-visual visual-handy">
+              <img
+                src="images/handyconnect.png"
+                alt="HandyConnect home services platform preview"
+                loading="lazy"
+                decoding="async"
+              >
+            </div>
+
+            <div class="project-details">
+              <p class="project-number">PROJECT / 03</p>
+              <h3>HandyConnect</h3>
+
+              <p>
+                A home-service platform connecting people with local
+                electricians, plumbers, cleaners, carpenters, and other
+                service providers.
+              </p>
+
+              <div class="tag-list">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>PHP</span>
+              </div>
+
+              <p class="project-focus">
+                Focus · Practical service discovery and booking
+              </p>
+            </div>
+          </article>
+
+          <!-- Project 4: Advanced Text Editor -->
+          <article class="project-card" data-project="3" hidden>
+            <div class="project-visual visual-editor">
+              <img
+                src="images/advancedtexteditor.png"
+                alt="Advanced Text Editor Java Swing application preview"
+                loading="lazy"
+                decoding="async"
+              >
+            </div>
+
+            <div class="project-details">
+              <p class="project-number">PROJECT / 04</p>
+              <h3>Advanced Text Editor</h3>
+
+              <p>
+                A Java mini project exploring text editing through a
+                console interface and a desktop GUI built with Swing.
+              </p>
+
+              <div class="tag-list">
+                <span>Java</span>
+                <span>Swing</span>
+                <span>File handling</span>
+              </div>
+
+              <p class="project-focus">
+                Focus · Desktop UI and core Java practice
+              </p>
+            </div>
+          </article>
+
+        </div>
+
+        <!-- Project slider navigation -->
+        <div class="slider-status">
+          <span id="slide-count">01 / 04</span>
+
+          <div
+            class="slider-dots"
+            id="slider-dots"
+            aria-label="Choose a project"
+          >
+            <button
+              class="slider-dot is-current"
+              data-slide="0"
+              aria-label="Show project 1"
+              type="button"
+            ></button>
+
+            <button
+              class="slider-dot"
+              data-slide="1"
+              aria-label="Show project 2"
+              type="button"
+            ></button>
+
+            <button
+              class="slider-dot"
+              data-slide="2"
+              aria-label="Show project 3"
+              type="button"
+            ></button>
+
+            <button
+              class="slider-dot"
+              data-slide="3"
+              aria-label="Show project 4"
+              type="button"
+            ></button>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================== EXPERIENCE ==================== -->
+    <section class="section container" id="experience">
+      <div class="section-heading">
+
+        <div>
+          <p class="eyebrow">04 / EXPERIENCE</p>
+          <h2>Learning beyond the classroom.</h2>
+        </div>
+
+        <p class="section-intro">
+          Teamwork, coordination, and community involvement have helped
+          me grow alongside technical skills.
+        </p>
+      </div>
+
+      <div class="timeline">
+
+        <article class="timeline-item">
+          <span class="timeline-marker"></span>
+
+          <div>
+            <p class="timeline-meta">STUDENT LEADERSHIP</p>
+            <h3>Placement Coordinator</h3>
+            <p>
+              Training and Placement Cell ·
+              D. Y. Patil College of Engineering &amp; Technology
+            </p>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <span class="timeline-marker"></span>
+
+          <div>
+            <p class="timeline-meta">EVENT OPERATIONS</p>
+            <h3>Operations Team Member</h3>
+            <p>Prarambh Development Cell</p>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <span class="timeline-marker"></span>
+
+          <div>
+            <p class="timeline-meta">VOLUNTEERING · 2024</p>
+            <h3>SRIJAN DIPEX</h3>
+            <p>
+              Supported project setup, participant coordination, and
+              event execution at a student working-model exhibition.
+            </p>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <span class="timeline-marker"></span>
+
+          <div>
+            <p class="timeline-meta">COMMUNITY SERVICE</p>
+            <h3>NSS Volunteer</h3>
+            <p>
+              Participated in social-awareness and community-service
+              activities, including cleanliness drives.
+            </p>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ==================== INTERACTIVE TO-DO LIST ==================== -->
+    <section class="section section-muted" id="task-board">
+      <div class="container task-layout">
+
+        <div>
+          <p class="eyebrow">05 / SMALL INTERACTIVE DEMO</p>
+
+          <h2>
+            Make room for
+            <span class="accent-text">progress.</span>
+          </h2>
+
+          <p class="section-intro">
+            A tiny to-do list to demonstrate JavaScript events, DOM
+            updates, and localStorage. Your tasks stay in this browser.
+          </p>
+        </div>
+
+        <div class="todo-card">
+          <form id="todo-form" class="todo-form">
+            <label class="sr-only" for="todo-input">New task</label>
+
+            <input
+              id="todo-input"
+              name="task"
+              type="text"
+              maxlength="100"
+              placeholder="Add a small goal..."
+              autocomplete="off"
+              required
+            >
+
+            <button class="button button-primary" type="submit">
+              Add task +
+            </button>
+          </form>
+
+          <p class="todo-hint" id="todo-hint" aria-live="polite">
+            Start with one thing you want to get done.
+          </p>
+
+          <ul
+            id="todo-list"
+            class="todo-list"
+            aria-label="Your tasks"
+          ></ul>
+
+          <div class="todo-footer">
+            <span id="todo-count">0 tasks</span>
+
+            <button
+              class="text-button"
+              id="clear-completed"
+              type="button"
+            >
+              Clear completed
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================== CONTACT FORM ==================== -->
+    <section class="section container" id="contact">
+      <div class="contact-layout">
+
+        <div class="contact-copy">
+          <p class="eyebrow">06 / CONTACT</p>
+
+          <h2>
+            Have an idea?<br>
+            <span class="accent-text">Let's connect.</span>
+          </h2>
+
+          <p>
+            Use the form to practise a validated contact flow.
+            This demo does not send messages to a server or email inbox.
+          </p>
+
+          <div class="contact-note">
+            <span class="note-icon">↗</span>
+
+            <span>
+              Open to learning, collaboration, and meaningful projects.
+            </span>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contact-form" novalidate>
+
+          <div class="form-row">
+
+            <div class="form-field">
+              <label for="name">Your name</label>
+
+              <input
+                id="name"
+                name="name"
+                type="text"
+                autocomplete="name"
+                required
+                minlength="2"
+                maxlength="60"
+                placeholder="e.g. Aditi Patil"
+              >
+
+              <small class="field-error" id="name-error"></small>
+            </div>
+
+            <div class="form-field">
+              <label for="email">Email address</label>
+
+              <input
+                id="email"
+                name="email"
+                type="email"
+                autocomplete="email"
+                required
+                placeholder="you@example.com"
+              >
+
+              <small class="field-error" id="email-error"></small>
+            </div>
+
+          </div>
+
+          <div class="form-field">
+            <label for="subject">Subject</label>
+
+            <input
+              id="subject"
+              name="subject"
+              type="text"
+              required
+              minlength="3"
+              maxlength="100"
+              placeholder="What would you like to discuss?"
+            >
+
+            <small class="field-error" id="subject-error"></small>
+          </div>
+
+          <div class="form-field">
+            <label for="message">Message</label>
+
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              required
+              minlength="10"
+              maxlength="1000"
+              placeholder="Write at least 10 characters..."
+            ></textarea>
+
+            <div class="field-meta">
+              <small class="field-error" id="message-error"></small>
+              <small id="message-count">0 / 1000</small>
+            </div>
+          </div>
+
+          <button
+            class="button button-primary submit-button"
+            type="submit"
+          >
+            Validate message <span aria-hidden="true">↗</span>
+          </button>
+
+          <p
+            class="form-feedback"
+            id="form-feedback"
+            role="status"
+            aria-live="polite"
+          ></p>
+
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="site-footer">
+
+    <div class="container footer-inner">
+      <a class="brand" href="#home">RV<span>.</span></a>
+
+      <p>Designed and built with HTML, CSS &amp; JavaScript.</p>
+
+      <a href="#home" class="back-top">Back to top ↑</a>
+    </div>
+
+    <div class="container footer-bottom">
+      <span>
+        © <span id="current-year"></span> Rajvardhan Vharambale
+      </span>
+
+      <span>Keep learning. Keep building.</span>
+    </div>
+
+  </footer>
+</body>
+</html>
